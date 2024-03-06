@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="bg-contaner d-flex flex-column justify-content-center">
+            <div class="tourism-card">
+                <h1 class="main-heading">Tourism</h1>
+                <p class="paragraph">Plane your trip.</p>
+                <div>
+                    <button class="button text-center" onclick="display('sectionFavouritPlaces')">Move</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionFavouritPlaces">
+        <div class="favouritplaces-bg-container">
+            <h1 class="favouritplaces-heading">Favourit Places</h1>
+            <div class="favourit-place-card d-flex flex-row">
+                <div>
+                    <h1 class="favourit-places-heading">Vacticum musiam</h1>
+                    <p class="favourit-places-description">
+                        Vacticum musiam is one of the place in Victican city in the Italy
+                        <a type="text" class="vacticum-city" href="https://en.wikipedia.org/wiki/Vatican_Museums">Get more about Vacticum musiam</a>
+                    </p>
+                </div>
+                <a type="text" href="https://in.images.search.yahoo.com/search/images;_ylt=Awrx_OeDXuFld8Y.Ik27HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3BpdnM-?p=vacticum+musiam&fr2=piv-web&type=E210IN826G0&fr=mcafee">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.meXqBmqNqSOIIbYvZz6F5gAAAA&pid=Api&P=0&h=180" class="vacticum-image" />
+                </a>
+                <button class="button-back" onclick="display('sectionHome')">Back</button>
+            </div>
+            <div class="favourit-place-card d-flex flex-row">
+                <div>
+                    <h1 class="favourit-places-heading">Charminar</h1>
+                    <p class="favourit-places-description">
+                        Charminar is the one of the historic icon it's reprasent hyderabad city of telangana for more details click on
+                        <a class="text" href="https://en.wikipedia.org/wiki/Charminar">
+                            know more details
+                        </a>
+                    </p>
+                </div>
+                <a type="text" href="https://in.images.search.yahoo.com/search/images;_ylt=AwrKDa5NdOFlCzIAhMy7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3BpdnM-?p=charminar&fr2=piv-web&type=E210IN826G0&fr=mcafee">
+                    <img src="https://1.bp.blogspot.com/-_Wu0Iws-aLc/WWXIOWxSpgI/AAAAAAAABrU/p-76EOk0hyg5k0SH62TU7rD949UZoc88gCLcBGAs/s1600/charminar-muhammad-quli-qutb-shahi.jpg" class="charminar-image" />
+                </a>
+                <button class="button-back" onclick="display('sectionHome')">Back></button>
+            </div>
+            <div class="favourit-place-card d-flex flex-row">
+                <div>
+                    <h1 class="favouirt-places-heading">Effel tower</h1>
+                    <p class="favourit-places-description">
+                        Effel tower is one of the most visited place in paris the country of france
+                        <a class="text" href="https://en.wikipedia.org/wiki/Eiffel_Tower">for more details</a>
+                    </p>
+                </div>
+                <a type="text" href="https://in.images.search.yahoo.com/search/images;_ylt=Awrx.9PbfOFl2u4Z1hHmHAx.?p=eiffel+tower&type=E210IN826G0&fr=mcafee&fr2=p%3As%2Cv%3Av%2Cm%3Apivot">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.e9-dBGL34OYXAdYSdtLn7wHaFm&pid=Api&P=0&h=180">
+                </a>
+                <button class="button-back" onclick="display('sectionHome')">Back></button>
+            </div>
+            <button class="button" onclick="display('sectionHome')">Back to home</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

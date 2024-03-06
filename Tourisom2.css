@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-contaner {
+    background-image: url("https://img.freepik.com/premium-vector/surfer-girls-beach_1019522-70.jpg?w=740");
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.tourism-card {
+    background-color: #020230;
+    height: 180px;
+    width: 280px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.main-heading {
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+
+}
+
+.paragraph {
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: 500;
+    color: #fffff3;
+    padding: 5px;
+}
+
+.button {
+    font-family: "Lobster";
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.favouritplaces-bg-container {
+    background-image: url("https://img.freepik.com/premium-photo/beach-wallpaper-ocean-water-wave-blue-sky-blue-sky-wallpaper-beach-sea-beach-ocean-blue-sky_190272-60.jpg?w=900");
+    background-size: cover;
+
+}
+
+.favouritplaces-heading {
+    font-family: 'Roboto';
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.favourit-place-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.vacticum-city {
+    color: red;
+}
+
+.vacticum-image {
+    border-radius: 5px;
+}
+
+
+.button-back {
+    font-family: 'Lobster';
+    font-size: 20px;
+    background-color: red;
+    padding: 10px;
+    margin: 10px;
+}
+
+.charminar-image {
+    height: 150px;
+    width: 150px;
+}
+
+.button {
+    font-family: 'Lobster';
+    font-size: 20px;
+    font-weight: 500;
+    background-image: linear-gradient(to right, red, green, orange);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
